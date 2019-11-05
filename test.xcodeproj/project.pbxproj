@@ -10,7 +10,7 @@
 		4712E349FC68DD487F6C5CEE /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A347B081BDD61741DABECB3 /* Pods_test.framework */; };
 		FAD5001B2368774B00ABD489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5001A2368774B00ABD489 /* AppDelegate.swift */; };
 		FAD5001D2368774B00ABD489 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5001C2368774B00ABD489 /* MainViewController.swift */; };
-		FAD500202368774B00ABD489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5001E2368774B00ABD489 /* Main.storyboard */; };
+		FAD500202368774B00ABD489 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5001E2368774B00ABD489 /* MainViewController.storyboard */; };
 		FAD500222368774D00ABD489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD500212368774D00ABD489 /* Assets.xcassets */; };
 		FAD500252368774D00ABD489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD500232368774D00ABD489 /* LaunchScreen.storyboard */; };
 		FAD500302368774E00ABD489 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5002F2368774E00ABD489 /* testTests.swift */; };
@@ -41,7 +41,7 @@
 		FAD500172368774B00ABD489 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD5001A2368774B00ABD489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD5001C2368774B00ABD489 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		FAD5001F2368774B00ABD489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD5001F2368774B00ABD489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		FAD500212368774D00ABD489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD500242368774D00ABD489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD500262368774D00ABD489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 			children = (
 				FAD5001A2368774B00ABD489 /* AppDelegate.swift */,
 				FAD5001C2368774B00ABD489 /* MainViewController.swift */,
-				FAD5001E2368774B00ABD489 /* Main.storyboard */,
+				FAD5001E2368774B00ABD489 /* MainViewController.storyboard */,
 				FAD500212368774D00ABD489 /* Assets.xcassets */,
 				FAD500232368774D00ABD489 /* LaunchScreen.storyboard */,
 				FAD500262368774D00ABD489 /* Info.plist */,
@@ -257,7 +257,7 @@
 			files = (
 				FAD500252368774D00ABD489 /* LaunchScreen.storyboard in Resources */,
 				FAD500222368774D00ABD489 /* Assets.xcassets in Resources */,
-				FAD500202368774B00ABD489 /* Main.storyboard in Resources */,
+				FAD500202368774B00ABD489 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
@@ -357,12 +351,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAD5001E2368774B00ABD489 /* Main.storyboard */ = {
+		FAD5001E2368774B00ABD489 /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAD5001F2368774B00ABD489 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		FAD500232368774D00ABD489 /* LaunchScreen.storyboard */ = {
