@@ -71,7 +71,7 @@ class MainViewController: UIViewController, UITableViewDataSource,UITableViewDel
         let cell = articles[indexPath.row]
         let url = cell["url"]!
         
-        webView = WKWebView(frame: CGRect( x: 0, y: 80, width: self.view.frame.width, height: self.view.frame.height), configuration: WKWebViewConfiguration())
+        webView = WKWebView(frame: CGRect( x: 0, y: 90, width: self.view.frame.width, height: self.view.frame.height), configuration: WKWebViewConfiguration())
         self.view.addSubview(webView)
         webView.navigationDelegate = self
         webView.uiDelegate = self
